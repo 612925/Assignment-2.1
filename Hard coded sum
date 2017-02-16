@@ -1,13 +1,9 @@
 a)Write a Java code with the class name, “acad,” and a method called “main.”
 Hard code the program with two integers and print the sum of those two
 integers.
-
-import java.util.Scanner;                         // package imports for using scanner class
-
 public class Main {
 	public static void main(String args[])
 	{
-		Scanner sc = new Scanner(System.in);          //'sc' is the object of class scanner from util package.
 		int a = 3;                                    // variable a is hard coded with value 3
 		int b  = 2;                                   // variable b is hard coded with 2 
 		a= a+b;                                       //sum should be displayed as 5 as 2+3=5
