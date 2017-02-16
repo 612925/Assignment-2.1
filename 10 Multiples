@@ -1,0 +1,17 @@
+e)Joe is scared to go to school. When her dad asked for the reason, Joe said
+that she was unable to complete the task given to her by her teacher. The
+task was to find the “first 10 multiples” of the number entered from
+“stdin”. 
+import java.util.Scanner;              //these codes are same for all programs
+public class acad {	
+public static void main(String args[])	
+{		
+Scanner sc= new Scanner(System.in); 		
+System.out.println("Input");        		
+int a = sc.nextInt();		                //input for the number to which multiples has to be found
+System.out.println("Output");		 
+for (int i = 1; i <=10; i++) {		      // this loop runs for 10 times	 
+System.out.println(a+"x"+i+"="+i*a);	  //Prints the multiples along with the format
+}	
+}
+}
