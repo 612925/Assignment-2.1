@@ -1,0 +1,14 @@
+import java.util.Scanner;       //importing scanner class from util package
+
+public class acad {
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in); // creating sc object for scanner class
+		int a = sc.nextInt();                // input for variable 'a' is taken from user using scanner class 
+		int b  = sc.nextInt();               // input for variable  'b' is taken from user using scanner class
+		int c= a+b;                          // 'c' has the value of the sum of 'a' and 'b'     
+		System.out.println(c);               // Integer 'c' which has the sum is printed
+		
+	}
+
+}
