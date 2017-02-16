@@ -1,0 +1,29 @@
+Program to find all even and odd nos. between two user inputs:
+import java.util.Scanner;
+public class acad {
+public static void main(String args[])
+{
+	StringBuffer sb = new StringBuffer();         //Creating an object for Stringbuffer for even nos.
+		StringBuffer sb1 = new StringBuffer();     //Creating another stringbuffer oject for odd nos.
+		Scanner sc =new Scanner(System.in);       
+		int a = sc.nextInt();                   
+		int b =sc.nextInt(); 
+		for (int i = a; i <=b; i++) {               //The loop runs from lower number to higher number incremented by '1'
+			if(i%2==0)                             //Condition for finding even or not
+			{
+				sb.append(i);                      //for even append in 'sb' String buffer
+				sb.append(" ");
+			}
+			else                                  
+			{ 
+				 sb1.append(i);                   //for odd append in 'sb1' String buffer
+				sb1.append(" ");
+			}
+		}                                          //next three statements are for printing the results
+		System.out.println("The even number are");
+		System.out.println(sb.toString());
+		System.out.println("The odd number are");
+		System.out.println(sb1.toString());
+	}
+
+}
