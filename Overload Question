@@ -1,0 +1,20 @@
+Can you overload a method with the same return type? Explain your
+answer with proper logic.
+Yes We can overload methods with same return type but we have to use different datatypes for
+input parameters or the number of parameter list should be different.
+
+EXAMPLE:
+
+	public static int sum(int a , int b,int c)
+    {
+         return a+b+c;
+         
+    }
+    public static int  sum(int s ,int s1)  
+    {
+    return s+s1;
+    }
+	
+both these methods have same name as 'sum' and return type as 'int' but one adds two numbers whereas other adds three nos.
+This is overiding by number of parameter list passed.
+
