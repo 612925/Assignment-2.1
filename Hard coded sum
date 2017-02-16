@@ -1,7 +1,7 @@
 a)Write a Java code with the class name, “acad,” and a method called “main.”
 Hard code the program with two integers and print the sum of those two
 integers.
-public class Main {
+public class acad {
 	public static void main(String args[])
 	{
 		int a = 3;                                    // variable a is hard coded with value 3
@@ -10,6 +10,5 @@ public class Main {
 		System.out.println(a);                        // Code for printing the sum
 		
 	}
-
 }
 
