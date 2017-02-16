@@ -1,0 +1,27 @@
+Program with the method name, “sum()” that accepts two
+parameters from the user and print the sum of those two numbers. The
+output format should be:
+First number is:
+Second number is:
+Sum is:
+import java.util.Scanner;     //importing scanner class from util package
+public class acad {
+	public static int sum(int a,int b) //Method 'sum' for adding two values in the parameter list
+	{
+		int d = a+b;
+		return d;                        // returns the sum
+	} 
+	public static void main(String args[])  // main method from which sum method is called
+	{
+		
+	Scanner sc =new Scanner(System.in);       // creating sc object for scanner class
+	int a = sc.nextInt();                     // input for variable 'a' is taken from user using scanner class 
+	int b =sc.nextInt();                      // input for variable  'b' is taken from user using scanner class
+		                                         //Next three statements prints the text format given and answer along
+	System.out.println( "First number is:"+a);
+		System.out.println("Second number is:"+b);
+		System.out.println("Sum is:"+sum(a,b));    // prints the return value from sum method
+		
+	}
+
+}
